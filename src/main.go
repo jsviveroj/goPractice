@@ -1,9 +1,12 @@
 package main
 
 import (
+	"fmt"
 	"goPractice/src/variables"
 )
 
 func main() {
-	variables.ShowInts()
+	state, text := variables.ConvertToInt(5)
+	fmt.Println(state)
+	fmt.Println(text)
 }
